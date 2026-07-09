@@ -1,3 +1,13 @@
+## About the Project
+
+This project demonstrates how to build a Next.js form submission workflow that sends user data to Google Sheets and Brevo using Google Apps Script. It shows how to handle form data from a Next.js application, store submissions in a spreadsheet, and sync contacts with an email marketing platform without setting up a traditional backend.
+
+The project uses:
+- Next.js for the frontend application
+- Google Apps Script as a lightweight serverless endpoint
+- Google Sheets for storing form submissions
+- Brevo for contact management and email automation
+
 
 ## Getting Started
 
@@ -14,13 +24,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
 
 
 ## Deploy on Vercel
